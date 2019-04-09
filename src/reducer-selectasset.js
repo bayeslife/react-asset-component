@@ -1,14 +1,21 @@
 
 let selectedAsset = null
 
-const click = (asset) => ({
-    type: 'assets-component/click',
-    asset: asset
-})
+let assettype = 'assets-component/click'
+
+const click = (asset) => {
+    console.log(asset)
+    return {
+        type: assettype,
+        asset: asset
+    }
+}
 
 const reducer = (state = null, { type, asset } = {}) => {
+
+    console.log(`R ${type} ${JSON.stringify(asset)}`)
     switch (type) {
-        case click().type: return selectedAsset = asset
+        case assettype: return selectedAsset = asset
         default: return selectedAsset;
     }
 }

@@ -4,11 +4,9 @@ import React from 'react';
 
 import AssetComponent from '../src/component-assets';
 
-describe('AssetComponent should render properly', async (assert) => {
+describe.only('AssetComponent should render properly', async (assert) => {
 
-  const createAssets = assets =>
-    render(<AssetComponent assets={ assets } />)
-
+  const createAssets = assets => render(<AssetComponent assets={assets}/>)
     {
       const assets = []
       const $ = createAssets(assets);
@@ -16,18 +14,19 @@ describe('AssetComponent should render properly', async (assert) => {
       assert({
         given: 'Given no assets',
         should: 'Should render empty list.',
-        actual: $('ul').children().length,
-        expected: assets.length
+        actual: $('ul').html(),
+        expected: ''
       });
     }
     {
-      const assets = ["test"]
+      let assetname = 'test'
+      const assets = [assetname]
       const $ = createAssets(assets);
       assert({
         given: 'Given no assets',
-        should: 'Should render empty list.',
-        actual: $('ul').children().length,
-        expected: assets.length
+        should: 'Should list with one item',
+        actual: $('ul').html(),
+        expected: `<li><button>${assetname}</button></li>`
       });
     }
     

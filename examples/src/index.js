@@ -1,9 +1,9 @@
 import React from 'react';
 import { render} from 'react-dom';
 
-import MyComponent from '../../src';
+import ContainerComponent from '../../src';
 
 const App = () => (
-    <MyComponent param="Sam"/>
+    <ContainerComponent />
 );
 render(<App />, document.getElementById("root"));
