@@ -1,6 +1,6 @@
 # assets-component React UI Component    
 
-This project is intended to publish a react component library project to npm along with an example to [github pages](https://github.com/bayeslife/react-asset-component/index.html). 
+This project is intended to publish a react component library project to npm along with an example to [github pages](https://bayeslife.github.io/react-asset-component/). 
 
 It has unit test for the component based on [this](https://medium.com/javascript-scene/unit-testing-react-components-aeda9a44aae2)
 
