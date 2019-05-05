@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "nwb serve-react-demo",
     "lint": "eslint --ext .jsx --ext .js --fix src test",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run lint && npm run transpile",
@@ -40,6 +40,7 @@
     "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "nodemon": "^1.18.11",
+    "nwb": "^0.23.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "riteway": "^6.0.3",
