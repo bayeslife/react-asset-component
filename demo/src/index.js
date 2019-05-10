@@ -9,7 +9,7 @@ class Demo extends Component {
   render() {
     return <div>
       <h1>short-interval-constrol-react-assets-component Demo</h1>
-      <AssetStatefulComponent url="http://localhost:3001/assets"/>
+      <AssetStatefulComponent url="http://localhost:3002/assets"/>
     </div>
   }
 }

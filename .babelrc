@@ -3,12 +3,20 @@
     [
       "@babel/preset-env",
       {
-        "targets": [
-          "last 2 versions",
-          "safari >= 7"
-        ]
+        "targets": {
+          "node": "10",
+          "chrome": "58",
+          "ie": "11"
+        }
       }
     ],
     "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
   ]
 }

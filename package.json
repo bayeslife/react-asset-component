@@ -16,13 +16,12 @@
   },
   "author": "bayeslife",
   "license": "MIT",
-
   "dependencies": {
     "axios": "^0.18.0",
-    "short-interval-control-archetype-react-component": "^1.0.7"
+    "short-interval-control-archetype-react-component": "^1.0.10"
   },
   "devDependencies": {
     "builder": "^4.0.0",
-    "short-interval-control-archetype-react-component-dev": "^1.0.7"
+    "short-interval-control-archetype-react-component-dev": "^1.0.9"
   }
 }
