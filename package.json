@@ -6,6 +6,7 @@
   "scripts": {
     "start": "builder run archetype:demo",
     "test": "builder run archetype:test",
+    "build": "builder run archetype:build",
     "lint": "builder run archetype:lint",
     "prepublishOnly": "builder run archetype:prepublishOnly"
   },
