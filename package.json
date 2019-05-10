@@ -1,9 +1,13 @@
 {
   "name": "short-interval-control-react-assets-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "builder run archetype:demo",
+    "test": "builder run archetype:test",
+    "prepublishOnly": "builder run archetype:prepublishOnly"
+  },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -12,10 +16,10 @@
   "license": "MIT",
   "devDependencies": {
     "builder": "^4.0.0",
-    "short-interval-control-archetype-react-component-dev": "^1.0.0"
+    "short-interval-control-archetype-react-component-dev": "^1.0.1"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "short-interval-control-archetype-react-component": "^1.0.0"
+    "short-interval-control-archetype-react-component": "^1.0.2"
   }
 }
