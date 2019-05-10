@@ -8920,10 +8920,10 @@ shebang-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-short-interval-control-archetype-react-component-dev@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component-dev/-/short-interval-control-archetype-react-component-dev-1.0.1.tgz#a33ee9b79e68bbb6ec2a299248611a6b230665f4"
-  integrity sha512-1u7C1qULYFfDo80F9V+VtqPVSdKv61cT1VxnCSO3tK1UpOtt4zUad/8d2thReVbAa9J0ZP4rQ1HRZATfeRc0CQ==
+short-interval-control-archetype-react-component-dev@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component-dev/-/short-interval-control-archetype-react-component-dev-1.0.7.tgz#1095ade24748954935346602c8017bd7d1c84d92"
+  integrity sha512-PXR9lpXCFzCobtu/1ZEmcLmvTAgcCTigMZHWhrYBW15d//KzZZvsor1gFyCE/DVvEti4bQINAXJCvyXgsucAig==
   dependencies:
     "@babel/cli" "^7.4.3"
     "@babel/core" "^7.4.3"
@@ -8949,10 +8949,10 @@ short-interval-control-archetype-react-component-dev@^1.0.1:
     riteway "^6.0.3"
     style-loader "^0.23.1"
 
-short-interval-control-archetype-react-component@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component/-/short-interval-control-archetype-react-component-1.0.2.tgz#d31230b6ea142813a522c20b499a0d85af0eaa42"
-  integrity sha512-xjUj0u3qRurNAdRMIk1aua9vIMxFh5efD8ySbn4Iy8T+nPWFWmTio/MgOPTTXRx+iHNa5g7Ajx6/OLwEdfVL+Q==
+short-interval-control-archetype-react-component@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component/-/short-interval-control-archetype-react-component-1.0.7.tgz#e5ae41da11493c6445bd5290a4cd33460d77e810"
+  integrity sha512-HLpgt0orf5SyREmAb/0nxh3dCHeCukRG4WFnZgli5gIdFUV3XzD4zBNh/OW+Z+WS3Vk9QVHVYk+S7g7rP2JAIA==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"

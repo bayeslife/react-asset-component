@@ -6,6 +6,7 @@
   "scripts": {
     "start": "builder run archetype:demo",
     "test": "builder run archetype:test",
+    "lint": "builder run archetype:lint",
     "prepublishOnly": "builder run archetype:prepublishOnly"
   },
   "peerDependencies": {
@@ -14,12 +15,13 @@
   },
   "author": "bayeslife",
   "license": "MIT",
-  "devDependencies": {
-    "builder": "^4.0.0",
-    "short-interval-control-archetype-react-component-dev": "^1.0.1"
-  },
+
   "dependencies": {
     "axios": "^0.18.0",
-    "short-interval-control-archetype-react-component": "^1.0.2"
+    "short-interval-control-archetype-react-component": "^1.0.7"
+  },
+  "devDependencies": {
+    "builder": "^4.0.0",
+    "short-interval-control-archetype-react-component-dev": "^1.0.7"
   }
 }
