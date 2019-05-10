@@ -20,7 +20,11 @@ describe.only('AssetComponent should render properly', async (assert) => {
     }
     {
       let assetname = 'test'
-      const assets = [assetname]
+      const assets = [
+        { 
+          key: 'assetkey',
+          description: assetname
+        }]
       const $ = createAssets(assets);
       assert({
         given: 'Given no assets',
