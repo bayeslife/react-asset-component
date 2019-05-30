@@ -5518,10 +5518,10 @@ short-interval-control-archetype-react-component-dev@^1.0.9:
     webpack-cli "^3.3.0"
     webpack-dev-server "^3.2.1"
 
-short-interval-control-archetype-react-component@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component/-/short-interval-control-archetype-react-component-1.0.10.tgz#9dad76e6a0c549c2a3194c2646e57b84ac9e58d4"
-  integrity sha512-vygeJDK/Vd1sZI2oUAVsRcRKinxTRrk6jECh8phP2TaB0uE6qg3DpHBsW/+sJW9OAzfV4bd6l372dJJt/fbc/g==
+short-interval-control-archetype-react-component@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/short-interval-control-archetype-react-component/-/short-interval-control-archetype-react-component-1.0.11.tgz#b3dcd9ef97a5f541e7b5cf6daf4f77ca33ae3930"
+  integrity sha512-M1H7chXSnnoCPsydy2NP0f328g8TLs2cQauWzPFj/l+C4OwcY0Ln8YY9npVxGQ3Zb0ysNU3ir1aaYvkDJnPyng==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
