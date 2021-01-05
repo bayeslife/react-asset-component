@@ -17,7 +17,7 @@
   "author": "bayeslife",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "short-interval-control-archetype-react-component": "^1.0.11"
   },
   "devDependencies": {
